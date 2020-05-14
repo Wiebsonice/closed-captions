@@ -246,8 +246,8 @@ body {
     text-transform: uppercase;
     color: red;
 	position: absolute;
-	left: 60%;
-	top: 50%;
+	left: 40%;
+	top: 30%;
 	transform: translate(-50%,-50%) rotate(30deg) scale(1);
 	/* opacity: 1 !important; */
 }
