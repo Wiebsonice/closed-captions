@@ -548,7 +548,7 @@ body {
 }
 .sound9 .gasbg {
     animation: hidegas 44s ease forwards;
-
+	transform: rotate(0deg);
 }
 
 @-webkit-keyframes noisebubble {
