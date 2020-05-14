@@ -103,6 +103,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 #video-placeholder {
 	border: 2px solid black
 }
@@ -197,14 +198,16 @@ body {
 }
 
 #closed-captions {
-	width: 600px;
 	/* margin-top: -50px; */
 	color: white;
 	pointer-events: none;
+	position: absolute;
+	height: 400px;
+	width: 750px;
 }
 
 #closed-captions p {
-	width: 600px;
+	/* width: 600px; */
 }
 
 
@@ -216,12 +219,24 @@ body {
 .voice1 {
 	font-family: "Brenner Mono";
 	letter-spacing: -2px;
+	position: absolute;
+	text-align: center;
+	/* background: red; */
+	top: 5px;
+	width: 100%;
+	opacity: .8;
+	text-shadow: 0px 0px 10px rgba(0, 255, 50, 1);
+	font-size: 18px;
 }
 
 /* voice2 */
 .voice2 {
 	font-family: "Brenner Sans";
-	text-align: right;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	font-size: 20px;
 }
 
 /* Voice3 */
@@ -240,6 +255,10 @@ body {
 /* voice2 */
 .voice4 {
 	font-family: "Brenner Mono Light";
+	top: 5px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
 }
 
 
@@ -533,7 +552,7 @@ body {
 }
 
 @-webkit-keyframes noisebubble {
-	0% {opacity: 0.4; transform: scale(1.1) translate(-50%,-50%);}
+	0% {opacity: 0.7; transform: scale(1.1) translate(-50%,-50%);}
 	5% {transform: scale(1.0) translate(-50%,-50%)}
 	10% {transform: scale(.9) translate(-50%,-50%)}
 	15% {transform: scale(1.0) translate(-50%,-50%)}
@@ -543,13 +562,13 @@ body {
     40% {transform: scale(1.0) translate(-50%,-50%)}
 	45% {transform: scale(.9) translate(-50%,-50%)}
     70% {transform: scale(1.0) translate(-50%,-50%)}
-	95% {opacity: 0.4;}
+	95% {opacity: 0.7;}
     100% {opacity: 0;}
 }
 
 @-webkit-keyframes hidegas{
-	0% {opacity: 0.4;}
-	95% {opacity: 0.4;}
+	0% {opacity: 0.7;}
+	95% {opacity: 0.7;}
     100% {opacity: 0;}
 }
 
