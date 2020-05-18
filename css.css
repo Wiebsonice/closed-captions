@@ -18,6 +18,37 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 
+.sound-captions {
+	position: absolute;
+	top: 0;
+	font-family: "Brenner Sans"; font-style: Normal; font-weight: 400;
+	color: white;
+	font-size: 8vh;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transform-origin: center;
+}
+
+.sound-captions p {
+	position: absolute;
+	display: block;
+	top: 30%;
+	transform: translateY(-50%) scale(.7);
+	opacity: 0;
+	transition: ease all .5s;
+	width: 100%;
+	transform-origin: center;
+}
+
+.sound-captions p::after {
+	content: ' ]';
+}
+.sound-captions p::before {
+	content: '[ ';
+}
+
 /* **********************************************
 The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
@@ -105,7 +136,8 @@ body {
 }
 
 #video-placeholder {
-	border: 2px solid black
+	border: 2px solid black;
+	z-index: 2;
 }
 
 .bg {
@@ -193,7 +225,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	filter:invert(100%) grayscale(100%);
-	transform: rotate(180deg);
+	/* transform: rotate(180deg); */
 	opacity: .0;
 }
 
@@ -204,6 +236,7 @@ body {
 	position: absolute;
 	height: 400px;
 	width: 750px;
+	z-index: 3;
 }
 
 #closed-captions p {
@@ -317,16 +350,16 @@ body {
 
 @-webkit-keyframes popIn {
     0% {
-		transform: scale(1);
+		transform: scale(1); opacity: .8;
     }
     60% {
-        transform: scale(1.3);
+        transform: scale(1.3); opacity: .8;
     }
     80% {
-        transform: scale(1.1);
+        transform: scale(1.1); opacity: .8;
     }
     100% {
-        transform: scale(1);
+        transform: scale(1); opacity: .8;
     }
 }
 
@@ -549,6 +582,7 @@ body {
 .sound9 .gasbg {
     animation: hidegas 44s ease forwards;
 	transform: rotate(0deg);
+	transition: ease all .5s;
 }
 
 @-webkit-keyframes noisebubble {
@@ -567,8 +601,8 @@ body {
 }
 
 @-webkit-keyframes hidegas{
-	0% {opacity: 0.7;}
-	95% {opacity: 0.7;}
+	0% {opacity: 0.9;}
+	95% {opacity: 0.9;}
     100% {opacity: 0;}
 }
 
@@ -585,7 +619,7 @@ body {
 }
 
 .sound10 #light {
-    animation: lightfade 38s ease forwards;
+    animation: lightfade 40s ease forwards;
 }
 
 @-webkit-keyframes noisebubble2 {
@@ -604,14 +638,14 @@ body {
 }
 
 @-webkit-keyframes hidegas2{
-	0% {opacity: 0.6;}
-	95% {opacity: 0.6;}
+	0% {opacity: 0.9;}
+	95% {opacity: 0.9;}
     100% {opacity: 0;}
 }
 
 @-webkit-keyframes lightfade{
-	0% {opacity: 0.6;}
-	95% {opacity: 0.6;}
+	0% {opacity: 0.8;}
+	95% {opacity: 0.8;}
     100% {opacity: 0;}
 }
 
@@ -619,4 +653,406 @@ body {
 #light {
 	filter: grayscale(100%);
 	opacity: 0;
+}
+
+/* sound captions */
+.sound0 .soundText1 {
+	animation: soundtext1 4.5s ease ;
+}
+
+.sound0 .soundani1 {
+	animation: soundtext1vid 4.5s ease ;
+}
+
+
+@-webkit-keyframes soundtext1 {
+	0% {
+		transform: scale(1); opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.4;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1.1); opacity:.4;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+@-webkit-keyframes soundtext1vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+p.soundText2 {
+	position: relative;
+	z-index: 4 !important;
+}
+.sound1 .soundText2 {
+	animation: soundtext2 2s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+
+@-webkit-keyframes soundtext2 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+
+
+.sound2 .soundText3 {
+	animation: soundtext3 2s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound2 .soundani2 {
+	animation: soundtext3vid 4.5s ease ;
+}
+
+
+@-webkit-keyframes soundtext3 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext3vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+
+.sound3 .soundText4 {
+	animation: soundtext4 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound3 .soundani3 {
+	animation: soundtext4vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext4 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext4vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+.sound4 .soundText5 {
+	animation: soundtext5 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound4 .soundani4 {
+	animation: soundtext5vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext5 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext5vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+
+.sound4 .soundText5 {
+	animation: soundtext5 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound4 .soundani4 {
+	animation: soundtext5vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext5 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext5vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+.sound5 .soundText6 {
+	animation: soundtext6 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound5 .soundani5 {
+	animation: soundtext6vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext6 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext6vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+.sound6 .soundText7 {
+	animation: soundtext7 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound6 .soundani6 {
+	animation: soundtext7vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext7 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext7vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+/* sound 7
+
+en 8 kort alarm */
+
+.sound9 .soundText10 {
+	animation: soundtext10 44s linear ;
+}
+
+.sound9 .soundani9 {
+	animation: soundtext10vid 44s ease ;
+}
+
+@-webkit-keyframes soundtext10vid {
+	0% {
+		opacity:.7;
+    }
+    60% {
+        opacity:.7;
+    }
+    80% {
+        opacity:.7;
+    }
+    95% {
+        opacity:.7;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes soundtext10 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    95% {
+        transform: scale(1.3); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
 }
