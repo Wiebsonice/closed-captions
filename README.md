@@ -60,13 +60,27 @@ Ook deze scene heb ik "verergerd" Zo heb ik letterlijke white noise toegevoegd, 
 Om toch de "needs" voor marie om een film te volgen in gedachte te houden heb ik nagedacht over hoe ik bepaalde geluiden kon vertalen naar text, en dit op een niet storende manier te laten zien ergens bij de video. Ik ben uiteindelijk tot een keuze gekomen waar te text van het geluid prominent in beeld fade doormiddel van een animatie, De video word iets geblurd waardoor de text in het midden van het scherm verschijnd. En Marie dus niet hoeft te pingpongen met haar ogen.
 
 ## User tests & feedback
-Intro met dorien
+Dit project word eigenlijk speciaal gemaakt voor Marie. Tijdens het eerste gesprek was het vooral een kennismaking. En kregen we te horen dat het speciaal voor haar gemaakt werd. Dus de feedback van marie zelf zouden de meeste waarde hebben voor ons. Iets wat we niet gewend zijn omdat we vaker voor groepen iets maken.
 
 ### test 1
-Test vragen 1, wat ga ik aanpassen en voorberijden voor de volgende les
+Tijdens test 1 heb ik me vooral gefocust op de effecten vertalen met kleur en animatie. En geen focus nog op de typografie. Daaruit kreeg ik een aantal dingen terug.
+- Wat betekent de animatie, hoe klinkt dat?
+- Goede keuze van de plaasting van de typografie
+- Effecten leiden niet te veel af, maar misschien met text verduidelijken?
+  
+Ik heb alle feedback verzameld en proberen te verwerken.  
+Zo heb ik nieuwe text elementen toegepast die de text leterlijk vertalen. En heb ik bepaalde animaties iets verder uitgebreid omdat dat voornamelijk de feedback was van Vasilis.
 
 ### test 2
+Bij de 2e test heb ik de typografie wat verder uitgewerkt. Zo heb ik de geluiden texts uitgebreid gesteild, En geplaatst achter de video. Ook heb ik deeffecten van de laatste 2 scenes iets versterkt.
 
+- Marie was erg onder de indruk van de vertaalde geluiden achter de video. Het was goed te lezen en niet storend.
+- De onderscheiding tussen wie wat zegt en de geluiden waren erg duidelijk.
+- De laatste scenes kunnen volgens vasilis nog iets uitgebreider en overdreven geanimeerd worden.
+
+Zo heb ik besloten om voor de eindoplevering de scenes nog te pimpen, resterende texten te stijlen en de geluidstexten nog verder toevoegen. Samen met wat animatie tweaks.
 
 # Het resultaat
- 
+Zo dat is het dan, de laatste feedback verwerkt, en het fragment afgemaakt. Het was wel een vreemde opdracht, het ene kamp wilde iets over de tops, en het andere kamp wilde iets wat goed werkt voor haar. maar het resultaat is in mijn ogen een goede middenweg.
+  
+Bekijk het fragment hier: [Interlinked Fragment]()
