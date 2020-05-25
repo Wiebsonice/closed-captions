@@ -261,6 +261,7 @@ body {
 	padding: 10px 25px;
 	transition: ease all .5s;
 	opacity: 0;
+	pointer-events: none;
 }
 
 .restart-btn:hover {
@@ -1315,6 +1316,7 @@ en 8 kort alarm */
 
 .sound11 .restart-btn {
 	opacity: 1;
+	pointer-events: all;
 }
 
 @keyframes plopout {
