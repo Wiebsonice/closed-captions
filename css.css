@@ -96,39 +96,39 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	/* font-family: "brenner sans"; */
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	/* font-family: "brenner display"; */
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	/* font-family: "brenner Sans condensed"; */
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	/* font-family: "brenner mono"; */
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+	/* font-family: "brenner slab"; */
 }
 
 
@@ -139,6 +139,8 @@ body {
 	color: black;
 	background: black;
 	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -237,6 +239,47 @@ body {
 	opacity: .0;
 }
 
+.noisebg {
+	background: url(./noise.jpg);
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	/* transform: rotate(180deg); */
+	opacity: .0;
+}
+
+.restart-btn {
+	position: absolute;
+	background: rgba(255,255,255,.0);
+	border: 2px solid white;
+	color: white;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	font-family: sans-serif;
+	padding: 10px 25px;
+	transition: ease all .5s;
+	opacity: 0;
+}
+
+.restart-btn:hover {
+	background: rgba(255,255,255,1);
+	color: black;
+	transform: translate(-50%,-50%) scale(.95);
+}
+
+.credits {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(255,255,255,.5);
+	font-size: 10px;
+	font-family: sans-serif;
+
+}
+
 #closed-captions {
 	/* margin-top: -50px; */
 	color: white;
@@ -278,6 +321,7 @@ body {
 	width: 100%;
 	bottom: 0px;
 	font-size: 20px;
+	text-shadow: 0px 0px 10px rgba(0, 255, 255, 1);
 }
 
 /* Voice3 */
@@ -287,6 +331,7 @@ body {
     text-transform: uppercase;
     color: orange;
 	position: absolute;
+	opacity: .8;
 	left: 40%;
 	top: 30%;
 	transform: translate(-50%,-50%) rotate(30deg) scale(1);
@@ -626,8 +671,8 @@ body {
 	transform: rotate(0deg);
 }
 
-.sound10 #light {
-    animation: lightfade 40s ease forwards;
+.sound9 #light {
+    animation: lightfade 44s ease forwards;
 }
 
 @-webkit-keyframes noisebubble2 {
@@ -1027,26 +1072,141 @@ p.soundText2 {
 
 en 8 kort alarm */
 
+
+.sound7 .soundText8 {
+	animation: soundtext8 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound7 .soundani7 {
+	animation: soundtext8vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext8 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext8vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+.sound8 .soundText9 {
+	animation: soundtext9 1.5s ease ;
+	transform: scale(1);
+	top: 30%;
+}
+
+.sound8 .soundani8 {
+	animation: soundtext9vid 3s ease ;
+}
+
+
+@-webkit-keyframes soundtext9 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    60% {
+        transform: scale(1.1); opacity:.8;
+    }
+    80% {
+        transform: scale(1); opacity:.8;
+    }
+    95% {
+        transform: scale(1); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+@-webkit-keyframes soundtext9vid {
+	0% {
+		opacity:.8;
+    }
+    60% {
+        opacity:.8;
+    }
+    80% {
+        opacity:.8;
+    }
+    95% {
+        opacity:.8;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
 .sound9 .soundText10 {
-	animation: soundtext10 44s linear ;
+	animation: soundtext10 44s linear !important ;
 }
 
 .sound9 .soundani9 {
-	animation: soundtext10vid 44s ease ;
+	animation: soundtext10vid 44s ease, soundtextvid10test 44s ease !important;
+}
+@-webkit-keyframes soundtextvid10test {
+	0% {filter:blur(2px) hue-rotate(90deg) saturate(8);}
+	10% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	20% {filter:blur(5px) hue-rotate(120deg) saturate(10);}
+	30% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	37.5% {filter:blur(3px) hue-rotate(300deg) saturate(5);}
+	45% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	52.5% {filter:blur(2px) hue-rotate(45deg) saturate(3);}
+	60% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	65% {filter:blur(5px) hue-rotate(180deg) saturate(12);}
+	70% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	75% {filter:blur(10px) hue-rotate(90deg) saturate(8);}
+	80% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	85% {filter:blur(8px) hue-rotate(50deg) saturate(4);}
+	90% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	92% {filter:blur(5px) hue-rotate(200deg) saturate(10);}
+	94% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
+	96% {filter:blur(6px) hue-rotate(140deg) saturate(11);}
+	100% {filter:blur(0px) hue-rotate(0deg) saturate(0);}
 }
 
 @-webkit-keyframes soundtext10vid {
 	0% {
-		opacity:.7;
+		opacity:.5;
     }
     60% {
-        opacity:.7;
+        opacity:.5;
     }
     80% {
-        opacity:.7;
+        opacity:.5;
     }
     95% {
-        opacity:.7;
+        opacity:.5;
     }
 	100% {
         opacity:1;
@@ -1063,4 +1223,101 @@ en 8 kort alarm */
 	100% {
         transform: scale(1); opacity:0;
     }
+}
+
+
+
+.sound10 .soundText11 {
+	animation: soundtext11 42s linear !important;
+}
+
+.sound10 .noisebg {
+	animation: noiseBg .5s steps(5) infinite, noiseFadeIn 42s ease forwards;
+}
+
+.sound10 .soundani10 {
+	animation: soundtext11vid 42s ease, soundtextvid11test 42s ease !important;
+}
+
+@-webkit-keyframes soundtextvid11test {
+	0% {filter:blur(2px) hue-rotate(0deg) saturate(0);}
+	10% {filter:blur(0px) hue-rotate(0deg) saturate(1);}
+	20% {filter:blur(5px) hue-rotate(5deg) saturate(2);}
+	30% {filter:blur(0px) hue-rotate(10deg) saturate(1);}
+	37.5% {filter:blur(3px) hue-rotate(20deg) saturate(0);}
+	45% {filter:blur(0px) hue-rotate(30deg) saturate(1);}
+	52.5% {filter:blur(2px) hue-rotate(50deg) saturate(0);}
+	60% {filter:blur(0px) hue-rotate(70deg) saturate(1);}
+	65% {filter:blur(5px) hue-rotate(100deg) saturate(2);}
+	70% {filter:blur(0px) hue-rotate(150deg) saturate(3);}
+	75% {filter:blur(10px) hue-rotate(180deg) saturate(4);}
+	80% {filter:blur(0px) hue-rotate(200deg) saturate(5);}
+	85% {filter:blur(8px) hue-rotate(225deg) saturate(6);}
+	90% {filter:blur(0px) hue-rotate(250deg) saturate(7);}
+	92% {filter:blur(5px) hue-rotate(300deg) saturate(8);}
+	94% {filter:blur(0px) hue-rotate(330deg) saturate(9);}
+	96% {filter:blur(6px) hue-rotate(360deg) saturate(10);}
+	100% {filter:blur(0px) hue-rotate(0deg) saturate(11);}
+}
+
+@-webkit-keyframes soundtext11vid {
+	0% {
+		opacity:.6;
+    }
+    60% {
+        opacity:.5;
+    }
+    80% {
+        opacity:.6;
+    }
+    95% {
+        opacity:.4;
+    }
+	100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes soundtext11 {
+	0% {
+		transform: scale(1) opacity:.8;
+    }
+    95% {
+        transform: scale(1.3); opacity:.8;
+    }
+	100% {
+        transform: scale(1); opacity:0;
+    }
+}
+
+
+
+
+/* noise  */
+
+@keyframes noiseFadeIn {
+	0% {opacity: 0;}
+	50% {opacity: .4;}
+	95% {opacity: .9;}
+	100% {opacity: 0;}
+}
+
+@keyframes noiseBg {
+	0% {background-position: 0 0;}
+	100% {background-position: 100% 100%;}
+}
+
+
+.sound11 .soundani11 {
+	animation: plopout 1s ease forwards !important;
+	/* animation-direction: ; */
+}
+
+.sound11 .restart-btn {
+	opacity: 1;
+}
+
+@keyframes plopout {
+	0%{transform: scale(1);}
+	100%{transform: scale(0); opacity: 0;}
 }

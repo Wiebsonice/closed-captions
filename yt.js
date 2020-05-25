@@ -138,3 +138,9 @@ function sTimes(num,soundStarts,curT) {
 		};
 	}
 })();
+
+
+var restartBtn = document.querySelector(".restart-btn");
+restartBtn.addEventListener("click", function(){
+ 	window.location.reload();
+});
