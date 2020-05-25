@@ -23,41 +23,41 @@ De tweede stem die we tegenkomen is van Officer K, Officer K is een levend perso
 Stem 3 is een vreemde, De kale man die de phrase "Fuck off skinjob" er uit kraamd als K langs loopt. Heeft maar 1 zin, hij heeft dus letterlijk 4secs of fame. Omdat het wel gezegd word, maar met een saterische toon, heb ik gekozen om dit textje oranje te kleuren. Ook is het eigenlijk een beetje abrupt, dus heb ik gezorgd dat het op een totaal andere positie staat als de andere text. En om nog meer onderscheid te maken heb ik hier de `Brenner Display Black` font variant gekozen.
 
 ### stem 4 :robot:
-![screenshot](gangang)
+![screenshot](gangang)  
 Stem 4 is eigenlijk de stem van de robot, maar in een "heftigere" scene. Ik heb hier de drop shadow weggehaald omdat de stem wat schraler klinkt, Ook heb ik er voor gezorgd om de light variant van het fontje te gebruiken zodat het een beetje schraal en dun overkomt. Hier is dus `Brenner Mono Light` gekozen.
 
 ## Kleurgebruik en vlakverdeling
 Na de eerste test moest ik de posities van bepaalde elementen aanpassen. Waarom heb ik de elementen gepositioneerd waar ze staan? en hoe heb ik kleur manipulaties en elementen gebruikt om de geluiden te vertalen naar een doof persoon.
 
-### De video
-De video is 
+### De video :film_strip:
+De video is **Het** belangrijkste onderdeel van het project. Omdat de dove mensen niets kunnen horen is visueel alles veel belangrijker. Maar natuurlijk is voor mensen die "gewoon" kunnen horen de video ook belangrijk. Daarom heb ik er voor gekozen deze prominent in het midden van het scherm te plaatsen. 
 
-### Texten
-omdat een conversatie
+### Texten :capital_abcd:
+Een conversatie is tussen 2 personen, Voor de eerste test had ik alle texten onder de video staan. Dit bleek voor Marie niet het meest duidelijk. Ik heb dus na de feedback besloten dat als er een coversatie is, de ene text boven de video komt en de andere er onder. Zo is de robot stem dus boven de video, en van K is het onder de video. De enige die hier van afwijkt is de stem 3, zoals boven al beschreven. Stem 3 is schuin in beeld bij de gene die het zegt.
 
-### overige elementen
-effecten om de video heen en met de video
+### overige elementen :large_orange_diamond:
+Omdat de video prominent in het midden staat geeft dat mij veel ruimte om de video heen. Ik he gekozen voor een goede mix van de video groote en de ruimte er omheen. Om de effecten duidelijk over te laten komen is er natuurlijk ruimte nodig. Zo zie je vaak dat ik geluids effecten om de video heen heb of direct links/rechts naast de video.
 
 ## Vertaling van audio
-Na test 1 meost ik iets anders bedenken, want ik denk ik geluiden, een doof iemmand niet.
+Na test 1 moest ik iets anders bedenken, want ik denk ik geluiden, een doof iemmand niet. Effecten waren tof, maar niet super duidelijk voor een doof iemmand. Dus moest ik gaan kijken hoe ik effecten kon verduidelijken. Een van de dingen die ik tegenkwam was het letterlijk vertalen van geluiden naar text. En deze op een toffe animatie manier intergeren in de totale ervaring.
 
-### Sirene
-Het poppen van het scherm
+### Sirene :left_right_arrow:
+De eerste sirene die afgaat in de film heb ik geprobeerd af te beelden met het vergroten van de video in een schokkende ease. Niet te veel omdat het niet heel veel toevoeging bied in de scene.
 
-### Alarm
-De alarm lichten
+### Alarm :rotating_light:
+Het tweede alarm wat afgaat heb ik afgebeeld met 2 rode blurry vlakken aan de zijkant van de video. Deze flakken schuiven achter de video zodat de ogen van de kijker via de animatie weer terug geleid worden naar de video. Eigenlijk het digitaliseren van een zwaailicht.
 
-### Scanner
-Scanner geluid mechanisch
+### Scanner :printer:
+Er klinkt 2 keer een soort scanner geluid, ik kreeg het gevoel dat dit geluid te maken had met dat K gescant word. Dus heb ik met een over de top animatie letterlijk een scanner gemaakt die het video scherm scant. Een border om de video heen en een lijn die over het videotje heen en weer gaat.
 
-### Scene 1
-Deze scene is minder heftig dan de tweede, maar ik heb hem nog verder op gespiced na de 2e test
+### Scene 1 :control_knobs:
+Het interview wat als eerste gedaan word gaat soepel en K haalt zijn baseline. Maar door de muziek op de achtergornd krijg je wel een onaangenaam gevoel. Zo heb ik dus deze scene vervangen met de effecten die ik eerst bij scene 2 had. Zo heb ik een lichtere white noise achter de video geplaatst die ik na week 2 heb verergerd.
 
-### scene 2
-net als scene 1 heb ik deze scene verder opgespiced na test 2
+### scene 2 :control_knobs:
+Ook deze scene heb ik "verergerd" Zo heb ik letterlijke white noise toegevoegd, en effecten bij de video die steeds heftiger worden en het (tegen de gebruikers testen in) steeds lastiger maken om het beeld te volgen. Wat na de feedback van vasilis bijna als een must over kwam.
 
-### Text toevoeging
-Vertaling van text met positionereing
+### Text toevoeging :fax:
+Om toch de "needs" voor marie om een film te volgen in gedachte te houden heb ik nagedacht over hoe ik bepaalde geluiden kon vertalen naar text, en dit op een niet storende manier te laten zien ergens bij de video. Ik ben uiteindelijk tot een keuze gekomen waar te text van het geluid prominent in beeld fade doormiddel van een animatie, De video word iets geblurd waardoor de text in het midden van het scherm verschijnd. En Marie dus niet hoeft te pingpongen met haar ogen.
 
 ## User tests & feedback
 Intro met dorien
