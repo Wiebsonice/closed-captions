@@ -62,7 +62,7 @@ Om toch de "needs" voor marie om een film te volgen in gedachte te houden heb ik
 ## User tests & feedback
 Dit project word eigenlijk speciaal gemaakt voor Marie. Tijdens het eerste gesprek was het vooral een kennismaking. En kregen we te horen dat het speciaal voor haar gemaakt werd. Dus de feedback van marie zelf zouden de meeste waarde hebben voor ons. Iets wat we niet gewend zijn omdat we vaker voor groepen iets maken.
 
-### test 1
+### Test :one:
 Tijdens test 1 heb ik me vooral gefocust op de effecten vertalen met kleur en animatie. En geen focus nog op de typografie. Daaruit kreeg ik een aantal dingen terug.
 - Wat betekent de animatie, hoe klinkt dat?
 - Goede keuze van de plaasting van de typografie
@@ -71,7 +71,7 @@ Tijdens test 1 heb ik me vooral gefocust op de effecten vertalen met kleur en an
 Ik heb alle feedback verzameld en proberen te verwerken.  
 Zo heb ik nieuwe text elementen toegepast die de text leterlijk vertalen. En heb ik bepaalde animaties iets verder uitgebreid omdat dat voornamelijk de feedback was van Vasilis.
 
-### test 2
+### Test :two:
 Bij de 2e test heb ik de typografie wat verder uitgewerkt. Zo heb ik de geluiden texts uitgebreid gesteild, En geplaatst achter de video. Ook heb ik deeffecten van de laatste 2 scenes iets versterkt.
 
 - Marie was erg onder de indruk van de vertaalde geluiden achter de video. Het was goed te lezen en niet storend.
@@ -80,7 +80,7 @@ Bij de 2e test heb ik de typografie wat verder uitgewerkt. Zo heb ik de geluiden
 
 Zo heb ik besloten om voor de eindoplevering de scenes nog te pimpen, resterende texten te stijlen en de geluidstexten nog verder toevoegen. Samen met wat animatie tweaks.
 
-# Het resultaat
+# Het resultaat :white_check_mark:
 Zo dat is het dan, de laatste feedback verwerkt, en het fragment afgemaakt. Het was wel een vreemde opdracht, het ene kamp wilde iets over de tops, en het andere kamp wilde iets wat goed werkt voor haar. maar het resultaat is in mijn ogen een goede middenweg.
   
-Bekijk het fragment hier: [Interlinked Fragment]()
+Bekijk het fragment hier: [Interlinked Fragment](https://wiebsonice.github.io/closed-captions/)
