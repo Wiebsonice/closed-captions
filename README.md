@@ -12,7 +12,7 @@ Het brenner font is een van de meest uitgebreide font families die ik gezien heb
 
 ### Stem 1 :robot:
 ![screenshot](gangang)  
-De eerste stem die we tegenkomen is van de robot. Omdat een robot vaak een monotome stem heeft, en natuurlijk digitaal is. Heb ik gekozen voor de Brenner Mono type. Een monotype font is een font waarbij alle letters even lang zijn. Ook is code in een code editor vaak in een monotype font. En om het nog meer dat geeky/ digitale look te geven heb ik voor een Groene dropshadow gekozen. 
+De eerste stem die we tegenkomen is van de robot. Omdat een robot vaak een monotome stem heeft, en natuurlijk digitaal is. Heb ik gekozen voor de `Brenner Mono` type. Een monotype font is een font waarbij alle letters even lang zijn. Ook is code in een code editor vaak in een monotype font. En om het nog meer dat geeky/ digitale look te geven heb ik voor een Groene dropshadow gekozen. 
 
 ### Stem 2 :man:
 ![screenshot](gangang)  
@@ -23,10 +23,11 @@ De tweede stem die we tegenkomen is van Officer K, Officer K is een levend perso
 Stem 3 is een vreemde, De kale man die de phrase "Fuck off skinjob" er uit kraamd als K langs loopt. Heeft maar 1 zin, hij heeft dus letterlijk 4secs of fame. Omdat het wel gezegd word, maar met een saterische toon, heb ik gekozen om dit textje oranje te kleuren. Ook is het eigenlijk een beetje abrupt, dus heb ik gezorgd dat het op een totaal andere positie staat als de andere text. En om nog meer onderscheid te maken heb ik hier de `Brenner Display Black` font variant gekozen.
 
 ### stem 4 :robot:
+![screenshot](gangang)
 Stem 4 is eigenlijk de stem van de robot, maar in een "heftigere" scene. Ik heb hier de drop shadow weggehaald omdat de stem wat schraler klinkt, Ook heb ik er voor gezorgd om de light variant van het fontje te gebruiken zodat het een beetje schraal en dun overkomt. Hier is dus `Brenner Mono Light` gekozen.
 
 ## Kleurgebruik en vlakverdeling
-intro
+Na de eerste test moest ik de posities van bepaalde elementen aanpassen. Waarom heb ik de elementen gepositioneerd waar ze staan? en hoe heb ik kleur manipulaties en elementen gebruikt om de geluiden te vertalen naar een doof persoon.
 
 ### De video
 De video is 
